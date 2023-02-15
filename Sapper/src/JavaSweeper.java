@@ -8,5 +8,9 @@ public class JavaSweeper  extends JFrame {
 
     public JavaSweeper () {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+         setTitle("Sapper");
+         setLocation(null);
+         setVisible(true);
+         setResizable(false);
     }
 }

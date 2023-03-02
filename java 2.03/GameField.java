@@ -20,6 +20,13 @@ public class GameField extends JPanel {
     private boolean inGame = true;
 
     public  GameField(){
-
+        setBackground(Color.BLACK);
+        loadImage();
+    }
+    public  void  loadImage(){
+        ImageIcon iia = new ImageIcon("apple.png");
+        apple = iia.getImage();
+        ImageIcon iid = new ImageIcon("dot.png");
+        dot = iid.getImage();
     }
 }
